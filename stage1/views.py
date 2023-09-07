@@ -13,8 +13,8 @@ class EndpointView(View):
             "current_day": current_time.strftime('%A'),
             "utc_time": current_time.strftime('%Y-%m-%dT%H:%M:%SZ'),
             "track": track,
-            "github_file_url": "https://github.com/username/repo/blob/main/file_name.ext",
-            "github_repo_url": "https://github.com/username/repo",
+            "github_file_url": "https://github.com/CaptainVee/stage1/blob/main/stage1/views.py",
+            "github_repo_url": "https://github.com/CaptainVee/stage1",
             "status_code": 200,
         }
 

@@ -19,5 +19,5 @@ from .views import EndpointView
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("", EndpointView.as_view(), name="endpoint"),
+    path("api/", EndpointView.as_view(), name="api"),
 ]
