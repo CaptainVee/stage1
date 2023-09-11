@@ -8,4 +8,4 @@ def validate_string(value):
 
 
 class Person(models.Model):
-    name = models.CharField(max_length=100, unique=True, validators=validate_string)
+    name = models.CharField(max_length=100, unique=True, validators=[validate_string])
